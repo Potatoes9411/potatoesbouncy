@@ -44,7 +44,7 @@ public final class ProjectileCollision {
             BlockState blockState = self.getWorld().getBlockState(blockHitResult.getBlockPos());
             trace("[onCollision]: block = " + blockState.getBlock().getName());
 
-            @SuppressWarnings("deprecated")
+            @SuppressWarnings("deprecation")
             boolean blocksMovement = blockState.blocksMovement();
             trace("[onCollision]: blocksMovement = " + blocksMovement);
 
