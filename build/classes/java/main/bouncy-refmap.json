@@ -1,0 +1,70 @@
+{
+  "mappings": {
+    "com/potatoes/mixin/DragonFireballEntityMixin": {
+      "onCollision": "Lnet/minecraft/class_1670;method_7488(Lnet/minecraft/class_239;)V"
+    },
+    "com/potatoes/mixin/EggEntityMixin": {
+      "onCollision": "Lnet/minecraft/class_1681;method_7488(Lnet/minecraft/class_239;)V"
+    },
+    "com/potatoes/mixin/FireballEntityMixin": {
+      "onCollision": "Lnet/minecraft/class_1674;method_7488(Lnet/minecraft/class_239;)V"
+    },
+    "com/potatoes/mixin/MinecraftServerMixin": {
+      "runServer": "Lnet/minecraft/server/MinecraftServer;method_29741()V"
+    },
+    "com/potatoes/mixin/ProjectileEntityMixin": {
+      "onCollision": "Lnet/minecraft/class_1676;method_7488(Lnet/minecraft/class_239;)V"
+    },
+    "com/potatoes/mixin/RenderTickCounterMixin": {
+      "Lnet/minecraft/client/render/RenderTickCounter;prevTimeMillis:J": "Lnet/minecraft/class_317;field_1971:J",
+      "beginRenderTick(J)I": "Lnet/minecraft/class_317;method_1658(J)I"
+    },
+    "com/potatoes/mixin/ShulkerBulletEntityMixin": {
+      "onCollision": "Lnet/minecraft/class_1678;method_7488(Lnet/minecraft/class_239;)V"
+    },
+    "com/potatoes/mixin/SmallFireballEntityMixin": {
+      "onCollision": "Lnet/minecraft/class_1677;method_7488(Lnet/minecraft/class_239;)V"
+    },
+    "com/potatoes/mixin/SnowballEntityMixin": {
+      "onCollision": "Lnet/minecraft/class_1680;method_7488(Lnet/minecraft/class_239;)V"
+    },
+    "com/potatoes/mixin/WitherSkullEntityMixin": {
+      "onCollision": "Lnet/minecraft/class_1687;method_7488(Lnet/minecraft/class_239;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/potatoes/mixin/DragonFireballEntityMixin": {
+        "onCollision": "Lnet/minecraft/class_1670;method_7488(Lnet/minecraft/class_239;)V"
+      },
+      "com/potatoes/mixin/EggEntityMixin": {
+        "onCollision": "Lnet/minecraft/class_1681;method_7488(Lnet/minecraft/class_239;)V"
+      },
+      "com/potatoes/mixin/FireballEntityMixin": {
+        "onCollision": "Lnet/minecraft/class_1674;method_7488(Lnet/minecraft/class_239;)V"
+      },
+      "com/potatoes/mixin/MinecraftServerMixin": {
+        "runServer": "Lnet/minecraft/server/MinecraftServer;method_29741()V"
+      },
+      "com/potatoes/mixin/ProjectileEntityMixin": {
+        "onCollision": "Lnet/minecraft/class_1676;method_7488(Lnet/minecraft/class_239;)V"
+      },
+      "com/potatoes/mixin/RenderTickCounterMixin": {
+        "Lnet/minecraft/client/render/RenderTickCounter;prevTimeMillis:J": "Lnet/minecraft/class_317;field_1971:J",
+        "beginRenderTick(J)I": "Lnet/minecraft/class_317;method_1658(J)I"
+      },
+      "com/potatoes/mixin/ShulkerBulletEntityMixin": {
+        "onCollision": "Lnet/minecraft/class_1678;method_7488(Lnet/minecraft/class_239;)V"
+      },
+      "com/potatoes/mixin/SmallFireballEntityMixin": {
+        "onCollision": "Lnet/minecraft/class_1677;method_7488(Lnet/minecraft/class_239;)V"
+      },
+      "com/potatoes/mixin/SnowballEntityMixin": {
+        "onCollision": "Lnet/minecraft/class_1680;method_7488(Lnet/minecraft/class_239;)V"
+      },
+      "com/potatoes/mixin/WitherSkullEntityMixin": {
+        "onCollision": "Lnet/minecraft/class_1687;method_7488(Lnet/minecraft/class_239;)V"
+      }
+    }
+  }
+}
